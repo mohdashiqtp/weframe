@@ -78,23 +78,23 @@ export default function Kanban() {
                             <span className='absolute w-[40px] h-[40px] left-[80px]  top-[35px] rounded-full bg-red-700 text-center text-1xl text-white items-center justify-center flex font-bold'>5+</span>
 
                         </div>
-                        <div className='flex  w-[65%] justify-between ml-[140px] pt-[40px] '>
+                        <div className='flex  w-[60%] justify-between ml-[140px] pt-[40px] '>
                             <div className='flex bg-violet-500 text-white rounded-md p-2'>
                                 <UserPlus />
                                 <button>Invite Poeple</button>
 
                             </div>
-                            <div className='flex border border-violet-500 text-white rounded-md p-2'>
+                            <div className='flex border h-[50px] border-violet-500 text-white rounded-md p-2'>
 
                                 <button>Private</button>
 
                             </div>
-                            <div className='flex bg-violet-500 text-white rounded-md p-2'>
+                            <div className='flex h-[50px]  bg-violet-500 text-white rounded-md p-2'>
 
                                 <button>Exit</button>
 
                             </div>
-                            <div className='flex border border-violet-500 text-white rounded-md p-2'>
+                            <div className='flex h-[50px]  border border-violet-500 text-white rounded-md p-2'>
                                 <MessageSquare />
                                 <button>45 Comments</button>
 
