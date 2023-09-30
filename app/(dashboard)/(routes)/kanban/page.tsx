@@ -139,7 +139,7 @@ export default function Kanban() {
                     <div className='flex flex-col p-2'>
                         {
                             toDoData.map((todo) => (
-                                <Card card={todo} />
+                                <Card card={todo} key={todo.type} />
                             ))
                         }
                     </div>
@@ -157,7 +157,7 @@ export default function Kanban() {
                     <div className='flex flex-col p-2'>
                     {
                             inprogressData.map((todo) => (
-                                <Card card={todo} />
+                                <Card card={todo} key={todo.type} />
                             ))
                         }
                     </div>
@@ -175,7 +175,7 @@ export default function Kanban() {
                     <div className='flex flex-col p-2'>
                     {
                             doneData.map((todo) => (
-                                <Card card={todo} />
+                                <Card card={todo} key={todo.type} />
                             ))
                         }
                     </div>
